@@ -1,0 +1,11 @@
+var matrix = [];
+
+for(i=0;i<2;i++)
+	matrix[i] = []; //2 rows created
+  
+for(i=0;i<2;i++)
+	for(cols =0;cols<3;cols++)
+		matrix[i][cols] = prompt("enter number"); // 3 cols and values insertion
+for(i=0;i<2;i++)
+	for(cols =0;cols<3;cols++)
+		alert(matrix[i][cols]);
